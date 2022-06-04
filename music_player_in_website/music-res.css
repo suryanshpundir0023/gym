@@ -1,0 +1,43 @@
+
+@media only screen and (max-width:917px)
+{
+.songList h1
+{
+font-size: 18px;
+line-height: 1.8;
+letter-spacing: 0.032em;
+font-weight: 900;
+}
+
+.songItem img
+{
+    height: 35px;
+}
+
+.songItem
+{
+    height: 43px;
+}
+
+.container {
+    min-height: 55vh
+}
+
+.songInfo
+{
+    top: 84px;
+}
+
+.songInfo img
+{
+   position: relative;
+   top: -39px;
+   left:-52px;
+}
+
+.bottom
+{
+    height: 143px;
+}
+
+}

@@ -1,0 +1,86 @@
+@media only screen and (max-width:917px)
+{
+
+    .navbar
+    {
+        font-size: 9px;
+    }
+
+    .harding
+    {
+        font-size: 10px;
+    }
+
+    .list ul li
+    {
+        
+        margin: 9px;
+         font-size: 15px;
+    }
+
+    .hed-res
+    {
+        font-size: 15px;
+    }
+     
+     h2
+     {
+         font-size: 18px;
+     }
+    
+     .content-video
+     {
+         flex-direction: column;
+     }
+
+     .content {
+        margin: 15px;
+        
+        font-size: 15px;
+     }
+
+     .video iframe
+     {
+         height: 282px;
+         width: 348px;
+     }
+
+     .last
+     {
+         flex-direction: column;
+     }
+
+     .link
+     {
+         width: 100%;
+     }
+
+     .dismis
+     {
+         display: none;
+     }
+
+     .lpara
+     {
+         font-size: 16px;
+         line-height: 1.2;
+         font-weight: 700;
+         font-style: italic;
+     }
+
+     .content
+     {
+        font-size: 16px;
+         line-height: 1.2;
+         font-weight: 700;
+         font-style: italic;  
+     }
+      
+     .button-c-t button {
+        width: 51%;
+        background-color: #242222;
+        color: whitesmoke;
+        font-weight: 800;
+     }
+
+}

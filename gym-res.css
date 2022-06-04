@@ -1,0 +1,225 @@
+@media only screen and (max-width:917px)
+
+{
+
+    .h-res
+    {
+       
+        /* position: -webkit-sticky; */
+        position: sticky;
+        top: 0;
+    }
+    .res
+    {
+        height: 30px;
+        font-size: 25px;
+        
+    }
+    .navbar
+    {
+        display: none;
+    }
+
+    .navbar2
+    {
+        display: flex;
+        background-color: black;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        position: sticky;
+        top: 2px;
+        height: 113vw;
+        flex-direction: column;
+    }
+
+    .left-2
+    {
+        margin-bottom:3px ;
+    }
+
+    .middle-2 ul
+    {
+        flex-direction: column;
+    }
+
+    .middle-2 ul li
+    {
+        margin: 5px;
+    }
+    
+
+    .nav-h
+    {
+        height: 50px;
+    }
+
+    .nav-v
+    {
+        opacity: 0;
+    }
+
+
+    .chest
+    {
+        flex-direction: column;
+    }
+
+    .imggg
+    {
+        
+        background: repeating-linear-gradient(45deg, black, transparent 100px);
+        
+            
+            
+    }
+
+    .photho img
+    {
+        border-radius: 2px;
+        height: 141px;
+        margin: 10px;
+    }
+
+    h2
+    {
+        margin: 23px;
+        font-size: 25px;
+    }
+    
+
+    .clickme button 
+    {
+        
+        height: 37px;
+
+        margin: 20px;
+    
+        width: 187px;
+
+    }
+    
+
+
+    .para-biceps 
+    {
+        
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+
+        flex-direction: column-reverse;
+    }
+
+    
+    .parabiceps {
+        
+        align-items: center;
+        justify-content: center;
+          
+        flex-direction: column;
+    }
+    .shoulder
+    {
+        flex-direction: column;
+    }
+    .sec-food
+    {
+        flex-direction: column;
+        height: auto;
+    }
+
+    
+        
+        .mySlide-fade img
+        {
+               height: 80vw;
+        }
+    
+
+        h1
+        {
+            text-align: center;
+        }
+
+        .contentDiet
+        {
+            margin:57px;
+            width: none;
+        }
+
+        .sec-food-2
+        {
+            flex-direction: column;
+        }
+
+        .imageDiet img
+        {
+            height: 180px;
+        }
+
+        .setting
+        {
+            height:23px;
+            font-size:13px;
+            margin: 38px;
+        }
+        .burger
+        {
+            display: block;
+        }
+
+
+/* last */
+
+        .last
+        {
+            flex-direction: row;
+        }
+
+        footer
+        {
+            background-size: 234vw;
+        }
+   
+        .link
+        {
+            width: 100%;
+        }
+   
+        .dismis
+        {
+            display: none;
+        }
+   
+        .lpara
+        {
+            font-size: 16px;
+            line-height: 1.2;
+            font-weight: 700;
+            font-style: italic;
+        }
+   
+        .content
+        {
+           font-size: 16px;
+            line-height: 1.2;
+            font-weight: 700;
+            font-style: italic;  
+        }
+         
+        .button-c-t button {
+           width: 51%;
+           background-color: #242222;
+           color: whitesmoke;
+           font-weight: 800;
+        }
+   
+   
+
+
+
+
+
+
+    }

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>button</title>
+
+    <style>
+    *{
+        background-color: black;
+       
+
+    }
+
+    .btn button
+    {
+        height: 100px;
+        width: 200px;
+        color: white;
+        font-size: 40px;
+        border: 5px solid white;   
+        animation-name: depu;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+
+    }
+
+    @keyframes depu
+    {
+        0%
+        {
+            border: 5px solid red;  
+            background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+        }
+
+        25%
+        {
+            border: 5px solid green;  
+            background: linear-gradient(45deg, #2e0202, #e9d7c8, #dad733, #426e31, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+        }
+
+        50%
+        {
+            border: 5px solid  gold;  
+            background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+        }
+
+        75%
+        {
+            border: 5px solid  rgb(56, 36, 42);
+            background: linear-gradient(45deg, #423636, #bb7134, #b6b597, #5edf2b, #b2c2bf, #7a86c4, #975bd8, #ff00c8, #ff0000);
+        }
+
+        100%
+        {
+            border: 5px solid  rgb(133, 4, 133);  
+            background: linear-gradient(45deg, #574e4e, #241102, #a1a185, #565c53, #809c98, #1e3dd6, #a09da3, #ff00c8, #ff0000);
+        }
+
+    }
+
+
+
+    
+    </style>
+</head>
+<body>
+    <div class="btn">
+<button>submit</button>
+</div>
+
+</body>
+</html>

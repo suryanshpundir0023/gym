@@ -1,0 +1,188 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-image: url('sushil-ghimire-5UbIqV58CW8-unsplash.jpg');
+    background-repeat:no-repeat;
+    background-size:500vw;
+    
+}
+
+.margin-left-right
+{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.navbar
+{
+    display: flex;
+    background-color: rgb(134, 155, 103);
+    text-align: center;
+    justify-content: space-around;
+    
+}
+
+.list
+{
+    background-color: black;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    
+}
+
+.list ul
+{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+
+}
+
+.list ul li
+{
+    list-style-type: none;
+    text-decoration: none;
+    margin: 20px;
+
+}
+
+.list ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.heading
+{
+    background-color: rgb(134, 155, 103);
+    text-align: center;
+    
+}
+
+.content-video
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.video
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+h2
+{
+    text-align: center;
+    background-color: rgb(134, 155, 103);
+}
+
+.left
+{
+    flex-direction: row-reverse;
+
+    
+}
+
+.content
+{
+    margin: 40px;
+    color: white;
+}
+
+.last
+{
+    display: flex;
+    /* height: 15vw; */
+    background-color: black;
+    color: white;
+}
+
+
+.info
+{
+    width: 50%;
+    background-color: black;
+
+}
+
+.link
+{
+    width: 50%;
+}
+.link ul
+{
+    display: flex;
+    margin: 10px;
+    list-style-type: none;
+}
+
+.link ul li a
+{
+    text-decoration: none;
+    margin: 27px;
+}
+
+.home a
+{
+  
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: black;
+
+
+}
+
+.link ul
+{
+
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+
+}
+.link ul li a
+{
+color: black;
+}
+
+.lpara
+{
+    color: white;
+    
+    margin: 40px;
+}
+
+.music-change i
+{
+    color: black;
+}
+.gymfont
+{
+    color: white;
+    text-align: center;
+
+}
+
+.button-c-t
+{
+    text-align: center;
+    
+}
+
+.button-c-t button
+{
+    width: 40%;
+height: 39px;
+margin: 25px;
+border-radius: 20px;
+background-color: rgb(134, 155, 103);
+}
